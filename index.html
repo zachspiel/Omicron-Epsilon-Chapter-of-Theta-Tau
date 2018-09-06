@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
@@ -24,6 +25,10 @@
             padding-top: 15rem;
             padding-bottom: 12rem;
         }
+
+        .current{
+          color:#FFD700;
+        }
     </style>
 
     <!-- script
@@ -35,6 +40,10 @@
     ================================================== -->
     <link rel="shortcut icon" href="Favicon.png" type="image/png">
     <link rel="icon" href="Favicon.png" type="image/png">
+
+    <!-- icons
+    ================================================= -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
@@ -58,11 +67,11 @@
                 <h3>Welcome</h3>
 
                 <ul class="header-nav__list">
-                    <li class="current"><a href="index.html" title="Home">Home</a></li>
-                    <li><a href="page1.html" title="E-board">E-board/Chairs</a></li>
-                    <li><a href="page2.html" title="Members">Members</a></li>
-                    <li><a href="page3.html" title="Photos">Photos</a></li>
-                <!--    <li><a href="page4.html" title="page4">Page4</a></li>-->
+                    <li><a href="index.html" title="Home" style="#FFD700">Home</a></li>
+                    <li><a href="page1.html" title="E-board">About</a></li>
+                    <li><a href="Actives.html" title="Members">Members</a></li>
+                    <li><a href="Rush.html" title="Photos">Rush</a></li>
+                    <li><a href="Gallery.html" title="page4">Gallery</a></li>
 				</ul>
 
             </div> <!-- end header-nav__content -->
@@ -78,7 +87,7 @@
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/NAU Engineering Building.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/Whole_Fraternity.JPG" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
 
         <div class="shadow-overlay"></div>
 
@@ -89,6 +98,7 @@
                 Northern Arizona University<br>
                 Colony of Theta Tau
                 </h1>
+                <p>NAU's only professional engineering fraternity</p>
             </div> <!-- end home-content__main -->
 
         </div> <!-- end home-content -->
@@ -108,18 +118,21 @@
         <div class="row narrow section-intro add-bottom text-center">
 
             <div class="col-twelve tab-full">
+                <h1>About Theta Tau NAU</h1>
 
+                <p>Theta Tau is the oldest engineering fraternity!</p>
                 <h1 class="display-1">Upcoming Events</h1>
 
-                <p class="lead">Relay For Life April 28, 2018</p>
+                <p class="lead">Rush Fall 2018!</p>
 
+</div>
             </div>
 
         </div>
 
         <div class="row">
 
-            <div class="col-six tab-full">
+            <div class="col-seven tab-full" style="margin-left:25%;">
 
                 <h3>Send us a Question</h3>
 
@@ -155,11 +168,11 @@
             <div class="col-six tab-full">
 
                 <br>
-
+<!--
                 <div class="alert-box alert-box--error hideit">
                     <p>Error, You are missing some information.</p>
                     <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
-                </div><!-- /error -->
+                </div><!-- /error
 
                 <div class="alert-box alert-box--success hideit">
                     <p>Success your message has been sent, we will reply in a few days.</p>
@@ -178,13 +191,22 @@
     <section id="contact" class="s-contact">
         <div class="row">
             <div class="col-five tab-full contact-secondary">
-                <h3 class="subhead subhead--light">Where To Find Us</h3>
+                <!--<h3 class="subhead subheadlight"></h3>-->
 
-                <p class="contact-address">
-					Engineering Building<br>
-                    2112 S Huffer Ln.<br>
-                    Flagstaff, AZ<br>
-                    86011 US
+                <p class="contact-address" style="color:white;">
+					          Home
+                    E-Board
+                    Members
+                    Photos
+                    <!-- social media icons
+                    ============================================ -->
+                    <a href="https://www.facebook.com/thetataunau/" target="blank"><i class="fa fa-facebook-f icons" style="font-size:36px;color:white;"></i></a>
+
+                    <a href="https://twitter.com/thetataunau" target="blank"><i class="fa fa-twitter icons" style="font-size:36px;color:white;"></i></a>
+
+                    <a href="https://www.instagram.com/thetataunau/" target="blank"><i class="fa fa-instagram icons" style="font-size:36px;color:white;"></i></a>
+
+                    <a href="mailto:thetataunau@gmail.com"><i class="fa fa-envelope-o icons" style="font-size:36px;color:white;"></i></a>
                 </p>
             </div> <!-- end contact-secondary -->
 
