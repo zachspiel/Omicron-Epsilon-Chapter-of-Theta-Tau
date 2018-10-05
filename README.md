@@ -8,3 +8,5 @@ There are currently 5 pages for the website.
  Actives.html
 
 All html files are linked to the same CSS and JS files
+
+The JS files are fot html pre-loaders.
