@@ -6,3 +6,5 @@ There are currently 5 pages for the website.
  Gallery.html
  Rush.html
  Actives.html
+
+All html files are linked to the same CSS and JS files
