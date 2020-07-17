@@ -1,12 +1,3 @@
 # zachspiel.github.io
-Website for the NAU Colony of Theta Tau
+Website for the NAU Omicron Epsilon Chapter of Theta Tau made with React
 
-There are currently 5 pages for the website.
- index.html
- Gallery.html
- Rush.html
- Actives.html
-
-All html files are linked to the same CSS and JS files
-
-The JS files are fot html pre-loaders.
